@@ -8,12 +8,9 @@ manifest:
       url-base: https://github.com/petejohanson
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
-    - name: mouse_emulation
       remote: petejohanson
       revision: feat/pointers-with-input-processors
+      import: app/west.yml
     
   self:
     path: config
