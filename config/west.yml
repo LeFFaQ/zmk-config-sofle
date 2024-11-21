@@ -13,7 +13,7 @@ manifest:
       import: app/west.yml
     - name: mouse_emulation
       remote: petejohanson
-      revision: pointers-move-scroll
+      revision: feat/pointers-with-input-processors
     
   self:
     path: config
